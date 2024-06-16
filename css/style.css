@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #0f0e0e;
+}
+
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e8413f;
+}
+
+.entrenadores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.columna {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+}
+
+.entrenador {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid #f03333; 
+    border-radius: 10px;
+    text-align: center;
+    transition: border-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.entrenador:hover {
+    border-color: #f5f236;
+    transform: translateY(-5px);
+}
+
+.entrenador img {
+    max-width: 80px; 
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #e8413f; 
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(238, 237, 237, 0.1);
+}
+
+.entrenador h3 {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.entrenador-seleccionado {
+    border-color: #f39c12; 
+}
+
+.pokemons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pokemons p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #eb672a;
+}
+
+.pokemons-list {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.pokemon {
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(255, 254, 254, 0.8); 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pokemon img {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #e2754a; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pokemon img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    margin-top: 10px;
+    background-color: #4a90e2; 
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ad1;
+}
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.combate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.combate p {
+    font-size: 1rem;
+    color: #e8413f; /* Rojo Pokémon */
+}
+
+.vs {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    color: #e2544a;
+    text-align: center;
+}
+
+.detalles-combate p {
+    text-align: center;
+}
+
+#detalles-combate {
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url('../img/estadio.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(247, 239, 239, 0.3); 
+    color: #fff; 
+    min-height: 300px; 
+}

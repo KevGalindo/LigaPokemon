@@ -1,0 +1,449 @@
+[
+    {
+        "entrenador": "Ash Ketchum",
+        "foto":"./img/entrenadores/ash/foto.jpg",
+        "pokemons": [
+            {
+                "nombre": "Buizel",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Buizel.png"
+            },
+            {
+                "nombre": "Pikachu",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Squirtle",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Corphish",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/Corphish.png"
+            },
+            {
+                "nombre": "Donfan",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+
+        ]
+    },
+    {
+        "entrenador": "Misty",
+        "foto": "./img/entrenadores/misty/foto.jpeg",
+        "pokemons": [
+            {
+                "nombre": "Starmie",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Psyduck",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Goldeen",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Horsea",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Togepi",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Brock",
+        "foto":"./img/entrenadores/brock/foto.jpg",
+        "pokemons": [
+            {
+                "nombre": "Onix",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Geodude",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Zubat",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Vulpix",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Crobat",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Gary Oak",
+        "foto": "./img/entrenadores/garyouck/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Blastoise",
+                "tipo": "Nidoking",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Nidoking",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Arcanine",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Electivire",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Umbreon",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Lance",
+        "foto":"./img/entrenadores/lance/foto.jpg",
+        "pokemons": [
+            {
+                "nombre": "Dragonite",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Gyarados",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Aerodactyl",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Charizard",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Salamence",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Cynthia",
+        "foto":"./img/entrenadores/cinthya/foto.jpeg",
+        "pokemons": [
+            {
+                "nombre": "Garchomp",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Lucario",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Lucario",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Roserade",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Milotic",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Steven Stone",
+        "foto":"./img/entrenadores/steven/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Metagross",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Aggron",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Skarmory",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Armaldo",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Cradily",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Blue",
+        "foto":"./img/entrenadores/blue/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Pidgeot",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Alakazam",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Rhydon",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Gyarados",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Exeggutor",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Red",
+        "foto":"./img/entrenadores/red/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Pikachu",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Charizard",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Venusaur",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Blastoise",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Snorlax",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Professor Oak",
+        "foto":"./img/entrenadores/profesor/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Tauros",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Dragonite",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Arcanine",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Alakazam",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Lapras",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Erika",
+        "foto":"./img/entrenadores/erika/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Tangela",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Victreebel",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Vileplume",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Bellossom",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Jumpluff",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Giovanni",
+        "foto":"./img/entrenadores/giovanni/foto.png",
+        "pokemons": [
+            {
+                "nombre": "Persian",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Rhydon",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Dugtrio",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Nidoqueen",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Nidoking",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Sabrina",
+        "foto":"./img/entrenadores/sabrina/foto.jpg",
+        "pokemons": [
+            {
+                "nombre": "Alakazam",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Mr. Mime",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Espeon",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Slowbro",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Jynx",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+    ,
+    {
+        "entrenador": "Koga",
+        "foto":"./img/entrenadores/koga/foto.jpeg",
+        "pokemons": [
+            {
+                "nombre": "Muk",
+                "tipo": "fuego",
+                "foto": "./img/pokemones/charizard.png"
+            },
+            {
+                "nombre": "Weezing",
+                "tipo": "electrico",
+                "foto": "./img/pokemones/picachu.png"
+            },
+            {
+                "nombre": "Crobat",
+                "tipo": "agua",
+                "foto": "./img/pokemones/Squirtle.png"
+            },
+            {
+                "nombre": "Venomoth",
+                "tipo": "planta",
+                "foto": "./img/pokemones/vinasor.png"
+            },
+            {
+                "nombre": "Forretress",
+                "tipo": "tierra",
+                "foto": "./img/pokemones/donfan.png"
+            }
+        ]
+    }
+]

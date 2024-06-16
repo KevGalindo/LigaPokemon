@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Pokémon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>LIGA POKÉMON</h1>
+        <p>Total de entrenadores: {{ totalEntrenadores }}</p> <!-- Mostramos el contador -->
+        <div class="entrenadores-container">
+            <div class="columna" v-for="(entrenador, index) in entrenadores" :key="index">
+                <div :class="['entrenador', { 'entrenador-seleccionado': seleccionados.includes(entrenador) }]">
+                    <img :src="entrenador.foto" :alt="entrenador.entrenador">
+                    <h3>{{ entrenador.entrenador }}</h3>
+                    <button @click="verPokemons(entrenador)">Ver Pokémones</button>
+                    <button @click="seleccionarEntrenador(entrenador)">Seleccionar para combate</button>
+                    <div v-if="entrenador.mostrarPokemons" class="pokemons">
+                        <div class="pokemons-list">
+                            <div class="pokemon" v-for="pokemon in entrenador.pokemons" :key="pokemon.nombre">
+                                <img :src="pokemon.foto" :alt="pokemon.nombre" width="80" height="80">
+                                <p>{{ pokemon.nombre }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sección para mostrar detalles del combate -->
+        <div id="detalles-combate" v-if="detallesCombate" class="detalles-combate">
+            <p>{{ detallesCombate.entrenador1.entrenador }}</p>
+            <div class="pokemons">
+                <p>Pokémones:</p>
+                <div class="pokemons-list">
+                    <div class="pokemon" v-for="pokemon in detallesCombate.entrenador1.pokemons" :key="pokemon.nombre">
+                        <img :src="pokemon.foto" :alt="pokemon.nombre" width="80" height="80">
+                        <p>{{ pokemon.nombre }}</p>
+                    </div>
+                </div>
+            </div>
+            <p class="vs">VS</p>
+            <p>{{ detallesCombate.entrenador2.entrenador }}</p>
+            <div class="pokemons">
+                <p>Pokémones:</p>
+                <div class="pokemons-list">
+                    <div class="pokemon" v-for="pokemon in detallesCombate.entrenador2.pokemons" :key="pokemon.nombre">
+                        <img :src="pokemon.foto" :alt="pokemon.nombre" width="80" height="80">
+                        <p>{{ pokemon.nombre }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button @click="nuevoCombate" :disabled="!puedeCombatir">Nuevo Combate</button>
+        <p v-if="mensajeCombate">{{ mensajeCombate }}</p>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
